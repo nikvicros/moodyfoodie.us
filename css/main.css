@@ -87,6 +87,16 @@
     /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+    /* Globals */
+    
+    .mf-main {
+        background-color: #F0F5F9;
+    }
+    
+    .mf-footer .uk-navbar-container {
+        background-color: #F8F9FC;
+        height: 500px;
+    }
     /* CAT Gradients */
     
     .mf-cat-1 {
@@ -143,7 +153,7 @@
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#35b0ab', endColorstr='#c5f0a4', GradientType=1);
         /* IE6-9 */
     }
-    /* MARGINS */
+    /* MARGINS  TOP*/
     
     .mf-mt-10 {
         margin-top: 10px;
@@ -163,6 +173,27 @@
     
     .mf-mt-50 {
         margin-top: 50px;
+    }
+    /* MARGINS BOTTOM */
+    
+    .mf-mb-10 {
+        margin-bottom: 10px;
+    }
+    
+    .mf-mb-20 {
+        margin-bottom: 20px;
+    }
+    
+    .mf-mb-30 {
+        margin-bottom: 30px;
+    }
+    
+    .mf-mb-40 {
+        margin-bottom: 40px;
+    }
+    
+    .mf-mb-50 {
+        margin-bottom: 50px;
     }
     /* PADDING */
     
@@ -184,6 +215,12 @@
     
     .mf-pt-50 {
         padding-top: 50px;
+    }
+    /* BLOG CARDS SINGLE */
+    
+    .mf-card-single {
+        background-image: url(../img/1_media_400.jpg);
+        color: #F0F5F9;
     }
     /* ==========================================================================
    Helper classes
