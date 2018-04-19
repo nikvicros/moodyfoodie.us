@@ -32,15 +32,21 @@
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
+
+    <nav class="navbar fixed-top">
+        <a class="navbar-brand" href="#">MF</a>
+    </nav>
+
     <section class="mf-hero-our-way">
         <div class="mf-hero-banner mf-bg-parallax jumbotron jumbotron-fluid text-center">
             <header>
-                <nav class="mf-nav-menu">
+                <!--
+                <nav class="mf-nav-menu navbar-fixed-top">
                     <a href="#">Home</a>
                     <a href="#">Blog</a>
                     <a href="#">About Me</a>
                     <a href="#">Contact</a>
-                </nav>
+                </nav> -->
             </header>
 
             <div class="container">
@@ -58,13 +64,16 @@
                 <div class="col-2"></div>
                 <div class="col-10 mf-titles">
                     <h3><span class="mf-sidebar-number">01</span><span class="mf-sidebar-title">The Most Amazing Title Ever</span></h3>
+                    <p>TAGS: <span class="mf-tags">Cookies</span> <span class="mf-tags">Baking</span> <span class="mf-tags">Long Tag Very Long</span></p>
                 </div>
                 <div class="col">
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-2"></div>
+                <div class="col-2">
+                    <p>TAGS: <span class="mf-tags">Cookies</span> <span class="mf-tags">Baking</span><span class="mf-tags">Long Tag Very Long</span></p>
+                </div>
                 <div class="col-8">
                     <p><span class="mf-dropcap">L</span>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                         and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
@@ -116,11 +125,29 @@
                         including versions of Lorem Ipsum</p>
                 </div>
                 <div class="col-2">
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10 mf-titles">
+                    <h3><span class="mf-sidebar-number">03</span><span class="mf-sidebar-title">Headings</span></h3>
+                </div>
+                <div class="col-2">
                 </div>
             </div>
 
 
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <h2>This is Heading Larger</h2>
+                    <h3>This is Heading Large</h3>
+                    <h4>This is Heading Medium</h4>
+                    <h5>This is Heading Normal</h5>
+                    <h6>This is Heading Small</h6>
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-2">
@@ -138,14 +165,71 @@
                     </figure>
                 </div>
                 <div class="col-2">
-
                 </div>
     </section>
     <!-- END POST Body -->
 
     <!-- POST Comments -->
-    <section class="mf-comments">
+    <section id="mf-comments-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10 mf-titles">
+                    <h3><span class="mf-sidebar-title">Let's talk about this</span></h3>
+                </div>
+                <div class="col-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                </div>
+                <div class="col-6">
+                    <form>
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="CommentTextArea" placeholder="Leave a comment..." rows="3"></textarea>
+                        </div>
 
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="form-group">
+                                    <input type="email" class="form-control rounded-0" id="CommentEmail" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control rounded-0" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control rounded-0" placeholder="Website">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                </div>
+                <div class="col-8">
+                    <div class="media">
+                        <img class="mr-3 rounded-circle" src="img/profile/prof_64x.jpg" alt="User Photo">
+                        <div class="media-body">
+                            <h6 class="mt-0">My Awesome Name</h6>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+                            <div class="media mt-3">
+                                <a class="pr-3" href="#">
+                                    <img class="rounded-circle" src="img/profile/prof_64x.jpg" alt="User Photo">
+                                </a>
+                                <div class="media-body">
+                                    <h6 class="mt-0">Reply</h6>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
     </section>
     <!-- END POST Comments -->
 
